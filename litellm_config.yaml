@@ -1,0 +1,23 @@
+general_settings:
+  database_connection_pool_limit: 20
+
+model_list:
+  - model_name: gemini-experimental
+    litellm_params:
+      model: vertex_ai/gemini-1.5-pro
+      vertex_project: sunivy-for-example
+      vertex_location: us-central1
+
+litellm_settings:
+  vertex_ai_safety_settings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_NONE
+    - category: HARM_CATEGORY_HATE_SPEECH
+      threshold: BLOCK_NONE
+    - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+      threshold: BLOCK_NONE
+    - category: HARM_CATEGORY_DANGEROUS_CONTENT
+      threshold: BLOCK_NONE
+
+
+
