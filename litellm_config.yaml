@@ -18,7 +18,7 @@ model_list:
     litellm_params:
       model: vertex_ai/claude-3-7-sonnet
       vertex_project: sunivy-for-example
-      vertex_location: us-central1
+      vertex_location: us-east5
 
 litellm_settings:
   vertex_ai_safety_settings:
