@@ -9,7 +9,7 @@ model_list:
       model: vertex_ai/gemini-2.5-pro
       vertex_project: sunivy-watch-the-billing
       vertex_location: us-central1
-  - model_name: gemini-3-pro
+  - model_name: gemini-3-pro-preview
     litellm_params:
       model: vertex_ai/gemini-3-pro-preview
       vertex_project: sunivy-watch-the-billing
